@@ -3,6 +3,7 @@
     src: url('../fonts/wisdomscript/WisdomScript/WisdomScript.otf');
     font-style: italic;
 }
+
 @font-face {
     font-family: 'Roboto Slab', sans-serif;
     src: url('../fonts/RobotoSlab/RobotoSlabBold.ttf');
