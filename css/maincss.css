@@ -182,12 +182,12 @@ header h1{
 
 header .menu{
     float: right;
-    width: 57%;
+    width: 460px;
 }
 
 .menu li{
-    float: left;
-    margin-left: 7.44%;
+    float: right;
+    margin-left: 25px;
 }
 
 .menu li a{
@@ -377,8 +377,7 @@ header h2 span{
     border-radius: 50%;
 }
 
-.wrapper:nth-child(2n) .about_content,
-.wrapper:nth-child(2n) .about_img{
+.wrapper:nth-child(2n) .about_content{
     float: left;
 }
 
@@ -571,13 +570,22 @@ header h2 span{
 }
 
 .logos_wrap{
-    width: 700px;
     margin: 0 auto;
 }
 
 .logos_wrap a{
-    margin: 0 6px;
+    margin: 0;
+    height: 42px;
+    float: left;
+    width: 25%;
+    text-align: center;
 }
+
+.logos_wrap img{
+    width: 90%;
+    height: 42px;
+}
+
 
 /*CONTACT US*/
 

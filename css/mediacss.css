@@ -1,0 +1,30 @@
+@media screen and (max-width: 1260px){
+    header h2{font-size: 60px}
+}
+
+@media screen and (max-width: 1060px){
+    address{
+        left: 50%;
+        margin-left: -122px;
+        position: absolute;
+        top: 50%;
+        width: 244px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .about_content {
+        width: 34%;
+    }
+
+    .about_img{
+        margin-left: 36%;
+        margin-right: 2%;
+    }
+
+    .wrapper:nth-child(2n) .about_img{
+        margin-right: 36%;
+        margin-left: 2%;
+        float: right;
+    }
+}
