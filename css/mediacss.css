@@ -2,6 +2,21 @@
     header h2{font-size: 60px}
 }
 
+@media screen and (max-width: 1350px){
+    .team_left{
+        float: left;
+        margin-left: calc(50% - 105.44px - 210.88px);
+    }
+    .team_right{
+        float: right;
+        margin-right: calc(50% - 105.44px - 210.88px);
+    }
+    .team_center{
+        margin: 0 calc(50% - 105.44px);
+        clear: both;
+    }
+}
+
 @media screen and (max-width: 1060px){
     address{
         left: 50%;
@@ -27,4 +42,94 @@
         margin-left: 2%;
         float: right;
     }
+
+    .team_left{
+        float: left;
+        margin-left: calc(60% - 105.44px - 210.88px);
+    }
+    .team_right{
+        float: right;
+        margin-right: calc(60% - 105.44px - 210.88px);
+    }
 }
+
+@media screen and (max-width: 800px){
+    .wrapper:before{
+    content: '';
+    display: none;
+    }
+    .wrapper:first-of-type:before{
+    content: '';
+    display: none;
+    }
+    .wrapper:last-of-type{
+    display: none;
+    }
+
+    .about_img{
+         margin-left: 10%;
+    }
+
+    .wrapper:nth-child(2n) .about_img{
+    margin-right: 10%;
+    }
+    .about_content{
+        width: 55%;
+    }
+
+    .newStuff{
+        width: 78%;
+        margin: 0 auto;
+        height: 200px;
+        padding: 5px 0;
+        overflow: hidden;
+    }
+    .newStuff_foto{
+        width: 150px;
+        height: 150px;
+        border: 7px solid #ffffff;
+        border-radius: 50%;
+        background-color: #000;
+        display: inline-block;
+        float: left;
+        margin-right: 50px;
+    }
+    .newStuff h5{
+        line-height: 16px;
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
+    }
+
+    .newStuff p{
+        float: left;
+        margin-bottom: 12px;
+        margin-right: 60px;
+
+    }
+
+    .newStuff a{
+        text-indent: -100000px;
+        display: inline-block;
+        width: 41px;
+        line-height: 41px;
+        background-repeat: no-repeat;
+        margin-bottom: 50px;
+    }
+
+    .a_wrapp{
+        width: 131px;
+        margin: 0 auto;
+        float: left;
+    }
+
+    .newStuff:last-of-type .a_wrapp{
+         width: 86px;
+    }
+}
+
+
+
+
+/*to do add menu style*/
