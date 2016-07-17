@@ -53,6 +53,12 @@
     }
 }
 
+@media screen and (max-width: 830px){
+    .menu{display: none}
+    .btn-hide_menu{display: inline-block;}
+}
+
+
 @media screen and (max-width: 800px){
     .wrapper:before{
     content: '';
