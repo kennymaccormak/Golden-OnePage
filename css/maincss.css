@@ -165,7 +165,7 @@ a{
 /*HIDE MENU*/
 
 .hideMenu {
-    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat right top;
+    background-color: rgba(247, 247, 247, 0.6);
     right: -200px;  /* start off behind the scenes */
     height: 100%;
     position: fixed;
@@ -174,28 +174,31 @@ a{
 }
 
 .hideMenu ul {
-  border-top: 1px solid #636366;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    border-top: 1px solid #636366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .hideMenu li {
-  border-bottom: 1px solid #636366;
-  font-family: 'Open Sans', sans-serif;
-  line-height: 45px;
-  padding-bottom: 3px;
-  padding-right: 20px;
-  padding-top: 3px;
-  overflow:hidden;
+    border-bottom: 1px solid #636366;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    overflow:hidden;
 }
 
 .hideMenu a {
-  color: #fff;
-  font-size: 15px;
-  text-decoration: none;
-  text-transform: uppercase;
-  float:right;
+    color: #fed136;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.hideMenu a:hover {
+    color: rgb(255, 177, 0);
 }
 
 /*HEADER*/

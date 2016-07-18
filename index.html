@@ -10,15 +10,15 @@
     <link href="css/mediacss.css" rel="stylesheet" />
     <script src="js/jquery-3.0.0.min.js"></script>
 </head>
-<body>
+<body >
 
-   <div class="hideMenu">
+   <div class="hideMenu scrollDown">
        <ul>
-           <li><a href="#">contact</a></li>
-           <li><a href="#">about</a></li>
-           <li><a href="#">portfolio</a></li>
-           <li><a href="#">services</a></li>
-           <li><a href="#">home</a></li>
+            <li><a href="#" onclick="hideMenu()">home</a></li>
+            <li><a href="services" onclick="hideMenu()">services</a></li>
+            <li><a href="portfolio" onclick="hideMenu()">portfolio</a></li>
+            <li><a href="about_us" onclick="hideMenu()">about</a></li>
+            <li><a href="contact_us" onclick="hideMenu()">contact</a></li>
        </ul>
    </div>
 
@@ -26,11 +26,11 @@
             <div class="wrap">
                 <h1><a href="#"><img src="img/header/logo.png" alt="Golden Logo"/></a></h1>
 
-                    <ul class="menu">
-                        <li><a href="#contact_us">contact</a></li>
-                        <li><a href="#about_us">about</a></li>
-                        <li><a href="#portfolio">portfolio</a></li>
-                        <li><a href="#services">services</a></li>
+                    <ul class="menu scrollDown">
+                        <li><a href="contact_us">contact</a></li>
+                        <li><a href="about_us">about</a></li>
+                        <li><a href="portfolio">portfolio</a></li>
+                        <li><a href="services">services</a></li>
                         <li><a href="#">home</a></li>
                     </ul>
 
@@ -304,8 +304,10 @@
             document.getElementByClassName("btn-1b:after").style.height = "100%";
         };
     </script>
+    <script src="js/scroll.js"></script>
     <script src="js/media800.js"></script>
     <script src="js/hideMenu.js"></script>
+
 
 </body>
 </html>

@@ -1,4 +1,4 @@
-var hideMenu = function () {
+var hideShowMenu = function () {
 
     $('.btn-hide_menu').click(function () {
         var $hideMenu = $(this);
@@ -18,4 +18,17 @@ var hideMenu = function () {
     });
 };
 
+
+var hideMenu = function () {
+        var $hideMenu = $('.btn-hide_menu');
+
+            $('.hideMenu').animate({right: "-200px"}, 200);
+            $hideMenu.animate({right: "0px"}, 200);
+            $hideMenu.removeClass('btn-show_menu');
+            $hideMenu.val(0);
+
+
+};
+
+$(document).ready(hideShowMenu);
 $(document).ready(hideMenu);
