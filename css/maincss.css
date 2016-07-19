@@ -641,6 +641,12 @@ header h2 span{
     margin-left: -434.5px;
 }*/
 
+.stuff_wrap{
+    overflow: hidden;
+    width: initial;
+    max-width: 904px;
+    margin: 0 auto;
+}
 
 .stuff{
     float: left;
@@ -676,12 +682,12 @@ header h2 span{
 }
 
 .a_wrapp{
-    width: 131px;
+    width: 140px;
     margin: 0 auto;
 }
 
 .stuff:last-of-type .a_wrapp{
-     width: 86px;
+     width: 90px;
 }
 .twitter{
      background-image: url("../img/ourTeam/tw.png");
