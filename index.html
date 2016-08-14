@@ -47,8 +47,7 @@
 
             </div>
         </header>
-
-        <div class="content">
+       <div class="content">
 
             <div class="services wrap" >
                 <a href="#" name="services"></a>
@@ -90,36 +89,48 @@
                     <h3>Our portfolio</h3>
                     <h4>Proin iaculis purus consequat sem cure.</h4>
 
-                    <div class="row">
-                        <div class="item">
-                            <img src="img/portfolio/keyboard.png" alt="#"/>
-                            <h5>Ebony & Ivory</h5>
-                            <h4>Branding</h4>
+                    <div class="galerry" id="gallery1">
+                        <div class="row">
+                            <div class="item">
+                                <img src="img/portfolio/keyboard.png" class="item__img" alt="#"/>
+                                <h5>Ebony & Ivory</h5>
+                                <h4>Branding</h4>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/office.png" class="item__img" alt="#"/>
+                                <h5>Smart Stationary</h5>
+                                <h4>Print Design</h4>
+                            </div>
+                            <div class="item">
+                                <img src="img/portfolio/man.png" class="item__img" alt="#"/>
+                                <h5>Clever Poster</h5>
+                                <h4>Print Design</h4>
+                            </div>
                         </div>
-                        <div class="item">
-                            <img src="img/portfolio/office.png" alt="#"/>
-                            <h5>Smart Stationary</h5>
-                            <h4>Print Design</h4>
+                        <div class="row">
+                            <div class="item"><img src="img/portfolio/vinil.png" class="item__img" alt="#"/>
+                                <h5>Vinyl Record</h5>
+                                <h4>Product Mock-Up</h4>
+                            </div>
+                            <div class="item"><img src="img/portfolio/maket.png" class="item__img" alt="#"/>
+                                <h5>Treehouse Template</h5>
+                                <h4>Web Design</h4>
+                            </div>
+                            <div class="item"><img src="img/portfolio/some_logo.png" class="item__img" alt="#"/>
+                                <h5>Burned Logo</h5>
+                                <h4>Branding</h4>
+                            </div>
                         </div>
-                        <div class="item">
-                            <img src="img/portfolio/man.png" alt="#"/>
-                            <h5>Clever Poster</h5>
-                            <h4>Print Design</h4>
+                        <div class='b-preview'>
+                            <div class='b-preview__content'>
+                                <div class='b-preview__arrow b-preview__arrow_prev'>&lt;</div>
+                                <img src='' class='b-preview__image'>
+                                <div class='b-preview__arrow b-preview__arrow_next'>&gt;</div>
+
+                                <div class='b-preview__text'></div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="item"><img src="img/portfolio/vinil.png" alt="#"/>
-                            <h5>Vinyl Record</h5>
-                            <h4>Product Mock-Up</h4>
-                        </div>
-                        <div class="item"><img src="img/portfolio/maket.png" alt="#"/>
-                            <h5>Treehouse Template</h5>
-                            <h4>Web Design</h4>
-                        </div>
-                        <div class="item"><img src="img/portfolio/some_logo.png" alt="#"/>
-                            <h5>Burned Logo</h5>
-                            <h4>Branding</h4>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -304,9 +315,14 @@
             document.getElementByClassName("btn-1b:after").style.height = "100%";
         };
     </script>
+    <script src="js/components.js"></script>
+    <script src="js/gallery.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/media800.js"></script>
     <script src="js/hideMenu.js"></script>
+    <script>
+        var g1 = new gallery('#gallery1')
+    </script>
 
 
 </body>
