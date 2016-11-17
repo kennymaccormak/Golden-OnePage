@@ -764,7 +764,7 @@ header h2 span{
 }
 
 .google{
-    background-image: url("../img/ourTeam/g+.png");
+    background-image: url("../img/ourTeam/g.png");
 }
 
 .twitter:hover{
@@ -780,7 +780,7 @@ header h2 span{
 }
 
 .google:hover{
-    background-image: url("../img/ourTeam/g+_h.png");
+    background-image: url("../img/ourTeam/g_h.png");
 }
 
 .under{
@@ -937,19 +937,19 @@ footer a{
     margin: 0 3px;
 }
 
-.twitter{
+footer .twitter{
     background-image: url("../img/footer/tw.png");
 }
 
-.facebook{
+footer .facebook{
     background-image: url("../img/footer/f.png");
 }
 
-.pinterest{
+footer .pinterest{
     background-image: url("../img/footer/p.png");
 }
 
-.google{
+footer .google{
     background-image: url("../img/footer/g+.png");
 }
 
